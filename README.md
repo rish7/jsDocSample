@@ -1,6 +1,7 @@
-# JsDoc sample app
+# JsDoc sample app - [demo](https://rish7.github.io/jsDoc-docs-sample/index.html)
 ----------------------
 This is just demo app, how we can add jsdoc in our nodejs app  or any javascript projects like Appcelerator Titnaium, Cordova PhoneGap, AngularJs.
+![Code to Docs](/Code-to-Docs.png?raw=true "Code to Docs")
 
 ## Benefits of extracting documentation from code
 ----------------------
