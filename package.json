@@ -1,0 +1,22 @@
+{
+  "name": "jsdoc-sample",
+  "version": "1.0.0",
+  "description": "This is just demo about how to add JSDoc to NodeJs or Javascript project",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "istanbul cover src/person.js",
+    "jsdocs":"jsdoc -c jsdocConfig.json src -t ./node_modules/ink-docstrap/template -R README.md -r -d docs"
+  },
+  "keywords": [
+    "jsdoc",
+    "documentation"
+  ],
+  "author": "Naga Harish M",
+  "license": "ISC",
+  "devDependencies": {
+    "ink-docstrap": "^1.3.0",
+    "jsdoc": "^3.4.3",
+    "istanbul":"*",
+    "jasmine":"*"
+  }
+}

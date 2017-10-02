@@ -1,0 +1,20 @@
+{
+    "tags": {
+        "allowUnknownTags": true,
+        "dictionaries": ["jsdoc","closure"]
+    },
+    "source": {
+        "includePattern": ".+\\.js(doc|x)?$",
+        "excludePattern": "(^|\\/|\\\\)_"
+    },
+    "plugins": [],
+    "templates": {
+        "cleverLinks": false,
+        "monospaceLinks": false,
+        "outputSourceFiles": false ,
+        "outputSourcePath": false
+    }
+}
+//http://usejsdoc.org/about-commandline.html
+//https://github.com/docstrap/docstrap#configuring-the-template
+//http://usejsdoc.org/
